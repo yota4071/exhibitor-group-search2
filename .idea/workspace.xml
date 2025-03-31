@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f093557f-ecc5-4e42-9349-80b2fee16825" name="Changes" comment="update analytics" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2dtjk42k5FENlBsSvsaZm7W2QYc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.algolia.ts.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "TypeScript.algolia.ts.executor": "Run",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/takayaman/IdeaProjects/exhibitor-group-search/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "/Users/takayaman/IdeaProjects/exhibitor-group-search/node_modules/eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "/Users/takayaman/IdeaProjects/exhibitor-group-search/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/takayaman/IdeaProjects/exhibitor-group-search/node_modules/prettier",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.stylesheets.stylelint",
+    "ts.external.directory.path": "/Users/takayaman/IdeaProjects/exhibitor-group-search/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/groupImg/universityAuthority" />
+      <recent name="$PROJECT_DIR$/public/groupImg/unknown" />
+      <recent name="$PROJECT_DIR$/public/groupImg/centralSecretariat" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common/data" />
+      <recent name="$PROJECT_DIR$/src/common" />
+      <recent name="$PROJECT_DIR$/public/groupImg/centralSecretariat" />
+      <recent name="$PROJECT_DIR$/public/groupImg/athleticMeet" />
+      <recent name="$PROJECT_DIR$/src/type" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TypeScript.algolia.ts">
+    <configuration name="algolia.ts" type="NodeJSConfigurationType" temporary="true" node-parameters="--require ts-node/register " path-to-js-file="$PROJECT_DIR$/src/common/util/algolia.ts" working-dir="$PROJECT_DIR$/src/common/util">
+      <method v="2" />
+    </configuration>
+    <configuration name="algolia.ts" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
+      <module name="exhibitor-group-search" />
+      <option name="interpreterRef" value="project" />
+      <option name="enabledTsNodeEsmLoader" value="false" />
+      <option name="interpreterOptions" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src/common/util" />
+      <option name="tsconfigFile" value="" />
+      <option name="extraTypeScriptOptions" value="" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/common/util/algolia.ts" />
+      <option name="programParameters" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TypeScript.algolia.ts" />
+        <item itemvalue="Node.js.algolia.ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f093557f-ecc5-4e42-9349-80b2fee16825" name="Changes" comment="" />
+      <created>1710834410203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710834410203</updated>
+      <workItem from="1710834411658" duration="720000" />
+      <workItem from="1710835149548" duration="46358000" />
+      <workItem from="1711433161540" duration="74847000" />
+      <workItem from="1711947280691" duration="36173000" />
+    </task>
+    <task id="LOCAL-00001" summary="finish to set configs for eslint, husky, lint-staged, prettier and stylelint">
+      <option name="closed" value="true" />
+      <created>1710857804766</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710857804766</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finish to develop">
+      <option name="closed" value="true" />
+      <created>1711563413135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711563413136</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add no staged files">
+      <option name="closed" value="true" />
+      <created>1711587215667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711587215667</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add other groups">
+      <option name="closed" value="true" />
+      <created>1711788413603</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711788413603</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adjust style to use vanila-extract">
+      <option name="closed" value="true" />
+      <created>1711788503046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711788503046</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add types related to university authority group and change export format">
+      <option name="closed" value="true" />
+      <created>1711788627605</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711788627605</updated>
+    </task>
+    <task id="LOCAL-00007" summary="delete unused statement">
+      <option name="closed" value="true" />
+      <created>1711788644304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711788644304</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change workspace">
+      <option name="closed" value="true" />
+      <created>1711788661235</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711788661235</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add images for additional groups">
+      <option name="closed" value="true" />
+      <created>1711794723825</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711794723826</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adjust for pc">
+      <option name="closed" value="true" />
+      <created>1711794752815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711794752815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="change metadata">
+      <option name="closed" value="true" />
+      <created>1711860074807</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711860074807</updated>
+    </task>
+    <task id="LOCAL-00012" summary="rename file name for camel case">
+      <option name="closed" value="true" />
+      <created>1711860109677</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711860109677</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change algolia parser and data">
+      <option name="closed" value="true" />
+      <created>1711860139875</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711860139875</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change html language">
+      <option name="closed" value="true" />
+      <created>1711872708687</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711872708687</updated>
+    </task>
+    <task id="LOCAL-00015" summary="set Google Analytics">
+      <option name="closed" value="true" />
+      <created>1711872832342</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711872832342</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add image for new groups">
+      <option name="closed" value="true" />
+      <created>1712077157369</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077157369</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add image for new groups">
+      <option name="closed" value="true" />
+      <created>1712077170537</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077170537</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update group data">
+      <option name="closed" value="true" />
+      <created>1712077268055</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077268055</updated>
+    </task>
+    <task id="LOCAL-00019" summary="delete unused files">
+      <option name="closed" value="true" />
+      <created>1712077395527</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077395527</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update package for eslint">
+      <option name="closed" value="true" />
+      <created>1712077434666</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077434666</updated>
+    </task>
+    <task id="LOCAL-00021" summary="modify parser">
+      <option name="closed" value="true" />
+      <created>1712077458282</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077458282</updated>
+    </task>
+    <task id="LOCAL-00022" summary="make data about exhibition">
+      <option name="closed" value="true" />
+      <created>1712077493010</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077493010</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add eslint rules to sort keys">
+      <option name="closed" value="true" />
+      <created>1712077534841</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077534841</updated>
+    </task>
+    <task id="LOCAL-00024" summary="delete unused file">
+      <option name="closed" value="true" />
+      <created>1712077556439</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712077556439</updated>
+    </task>
+    <task id="LOCAL-00025" summary="show exhibition content">
+      <option name="closed" value="true" />
+      <created>1712089596990</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712089596990</updated>
+    </task>
+    <task id="LOCAL-00026" summary="delete analytics">
+      <option name="closed" value="true" />
+      <created>1712099582955</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712099582955</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update analytics">
+      <option name="closed" value="true" />
+      <created>1712111329469</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712111329469</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish to develop" />
+    <MESSAGE value="add no staged files" />
+    <MESSAGE value="add other groups" />
+    <MESSAGE value="adjust style to use vanila-extract" />
+    <MESSAGE value="add types related to university authority group and change export format" />
+    <MESSAGE value="delete unused statement" />
+    <MESSAGE value="change workspace" />
+    <MESSAGE value="add images for additional groups" />
+    <MESSAGE value="adjust for pc" />
+    <MESSAGE value="change metadata" />
+    <MESSAGE value="rename file name for camel case" />
+    <MESSAGE value="change algolia parser and data" />
+    <MESSAGE value="change html language" />
+    <MESSAGE value="set Google Analytics" />
+    <MESSAGE value="add image for new groups" />
+    <MESSAGE value="update group data" />
+    <MESSAGE value="delete unused files" />
+    <MESSAGE value="update package for eslint" />
+    <MESSAGE value="modify parser" />
+    <MESSAGE value="make data about exhibition" />
+    <MESSAGE value="add eslint rules to sort keys" />
+    <MESSAGE value="delete unused file" />
+    <MESSAGE value="show exhibition content" />
+    <MESSAGE value="delete analytics" />
+    <MESSAGE value="update analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="update analytics" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+# ignore
+.idea/
+node_modules/
+package-lock.json
+
+# auto created directories
+.husky/
+.next/
