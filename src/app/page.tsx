@@ -28,13 +28,24 @@ export default function Home() {
     reset();
   }, []);
 
+  // useEffect(() => {
+  //   if (isLoading) {
+  //     document.addEventListener('touchmove', disableScroll, { passive: false });
+  //   } else {
+  //     document.removeEventListener('touchmove', disableScroll);
+  //   }
+  // }, [isLoading]);
+
   useEffect(() => {
-    if (isLoading) {
-      document.addEventListener('touchmove', disableScroll, { passive: false });
-    } else {
-      document.removeEventListener('touchmove', disableScroll);
+    if (typeof window !== 'undefined') {
+      if (isLoading) {
+        document.addEventListener('touchmove', disableScroll, { passive: false });
+      } else {
+        document.removeEventListener('touchmove', disableScroll);
+      }
     }
   }, [isLoading]);
+
 
   function reset() {
     const initGroupPanelsData: GroupPanelType[] = [];
