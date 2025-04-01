@@ -46,7 +46,6 @@ export default function Home() {
     }
   }, [isLoading]);
 
-
   function reset() {
     const initGroupPanelsData: GroupPanelType[] = [];
     (initGroupData as GroupType[]).forEach((group) => {
