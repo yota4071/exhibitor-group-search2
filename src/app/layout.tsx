@@ -25,7 +25,6 @@ export default function RootLayout({
   return (
     <html lang='jp'>
       <head>
-        <GoogleAnalytics />
       </head>
       <body>
         <Providers>{children}</Providers>
