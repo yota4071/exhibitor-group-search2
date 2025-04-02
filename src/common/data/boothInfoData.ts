@@ -3,7 +3,7 @@ import { EventKind, EventKindType } from '@/common/type/eventKindType';
 
 type BoothInfoType = {
   areaClassification?: string | undefined;
-  areaNum: number | 'A' | 'B' | 'C' | 'D' | 'E' | 'F';
+  areaNum: number | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | string;
   availability: { [key: string]: boolean };
   campus: CampusType;
   eventKind: EventKindType;
@@ -17,7 +17,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 139,
+    groupId: 94,
     id: 1,
   },
   {
@@ -25,7 +25,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 318,
+    groupId: 44,
     id: 2,
   },
   {
@@ -33,7 +33,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 171,
+    groupId: 122,
     id: 3,
   },
   {
@@ -41,7 +41,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 138,
+    groupId: 95,
     id: 4,
   },
   {
@@ -49,7 +49,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 58,
+    groupId: 50,
     id: 5,
   },
   {
@@ -57,7 +57,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 176,
+    groupId: 280,
     id: 6,
   },
   {
@@ -65,7 +65,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 6,
+    groupId: 238,
     id: 7,
   },
   {
@@ -73,7 +73,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 44,
+    groupId: 6,
     id: 8,
   },
   {
@@ -81,7 +81,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 143,
+    groupId: 79,
     id: 9,
   },
   {
@@ -89,7 +89,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 151,
+    groupId: 110,
     id: 10,
   },
   {
@@ -97,7 +97,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 190,
+    groupId: 133,
     id: 11,
   },
   {
@@ -105,7 +105,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 268,
+    groupId: 331,
     id: 12,
   },
   {
@@ -113,7 +113,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 141,
+    groupId: 296,
     id: 13,
   },
   {
@@ -129,7 +129,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 89,
+    groupId: 47,
     id: 15,
   },
   {
@@ -137,7 +137,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 159,
+    groupId: 34,
     id: 16,
   },
   {
@@ -145,7 +145,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 161,
+    groupId: 234,
     id: 17,
   },
   {
@@ -153,7 +153,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 137,
+    groupId: 60,
     id: 18,
   },
   {
@@ -161,7 +161,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 232,
+    groupId: 72,
     id: 19,
   },
   {
@@ -169,7 +169,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 48,
+    groupId: 101,
     id: 20,
   },
   {
@@ -177,7 +177,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 333,
+    groupId: 191,
     id: 21,
   },
   {
@@ -185,7 +185,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 309,
+    groupId: 164,
     id: 22,
   },
   {
@@ -193,7 +193,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 275,
+    groupId: 143,
     id: 23,
   },
   {
@@ -201,7 +201,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 165,
+    groupId: 196,
     id: 24,
   },
   {
@@ -209,7 +209,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 142,
+    groupId: 338,
     id: 25,
   },
   {
@@ -217,7 +217,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 163,
+    groupId: 212,
     id: 26,
   },
   {
@@ -225,7 +225,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 235,
+    groupId: 43,
     id: 27,
   },
   {
@@ -233,7 +233,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 50,
+    groupId: 81,
     id: 28,
   },
   {
@@ -241,7 +241,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 230,
+    groupId: 155,
     id: 29,
   },
   {
@@ -249,7 +249,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 99,
+    groupId: 314,
     id: 30,
   },
   {
@@ -257,7 +257,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 334,
+    groupId: 87,
     id: 31,
   },
   {
@@ -265,7 +265,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 335,
+    groupId: 99,
     id: 32,
   },
   {
@@ -273,7 +273,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 173,
+    groupId: 121,
     id: 33,
   },
   {
@@ -289,7 +289,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 30,
+    groupId: 311,
     id: 35,
   },
   {
@@ -297,7 +297,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 189,
+    groupId: 278,
     id: 36,
   },
   {
@@ -305,7 +305,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 314,
+    groupId: 161,
     id: 37,
   },
   {
@@ -313,7 +313,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 154,
+    groupId: 45,
     id: 38,
   },
   {
@@ -321,7 +321,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 79,
+    groupId: 279,
     id: 39,
   },
   {
@@ -329,7 +329,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 263,
+    groupId: 215,
     id: 40,
   },
   {
@@ -337,7 +337,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 71,
+    groupId: 286,
     id: 41,
   },
   {
@@ -345,7 +345,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 51,
+    groupId: 235,
     id: 42,
   },
   {
@@ -353,7 +353,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 56,
+    groupId: 176,
     id: 43,
   },
   {
@@ -361,7 +361,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 184,
+    groupId: 131,
     id: 44,
   },
   {
@@ -369,7 +369,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 299,
+    groupId: 20,
     id: 45,
   },
   {
@@ -377,7 +377,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 296,
+    groupId: 243,
     id: 46,
   },
   {
@@ -385,7 +385,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 249,
+    groupId: 275,
     id: 47,
   },
   {
@@ -393,7 +393,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 337,
+    groupId: 0,
     id: 48,
   },
   {
@@ -401,7 +401,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 20,
+    groupId: 78,
     id: 49,
   },
   {
@@ -409,7 +409,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 49,
+    groupId: 335,
     id: 50,
   },
   {
@@ -417,7 +417,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 94,
+    groupId: 159,
     id: 51,
   },
   {
@@ -425,7 +425,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 194,
+    groupId: 294,
     id: 52,
   },
   {
@@ -433,7 +433,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 248,
+    groupId: 137,
     id: 53,
   },
   {
@@ -441,7 +441,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 270,
+    groupId: 271,
     id: 54,
   },
   {
@@ -449,7 +449,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 172,
+    groupId: 171,
     id: 55,
   },
   {
@@ -457,7 +457,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 332,
+    groupId: 31,
     id: 56,
   },
   {
@@ -465,7 +465,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 47,
+    groupId: 341,
     id: 57,
   },
   {
@@ -473,7 +473,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 95,
+    groupId: 333,
     id: 58,
   },
   {
@@ -481,7 +481,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 286,
+    groupId: 300,
     id: 59,
   },
   {
@@ -489,7 +489,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 122,
+    groupId: 71,
     id: 60,
   },
   {
@@ -497,7 +497,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 322,
+    groupId: 292,
     id: 61,
   },
   {
@@ -505,7 +505,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 45,
+    groupId: 337,
     id: 62,
   },
   {
@@ -513,7 +513,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 338,
+    groupId: 138,
     id: 63,
   },
   {
@@ -521,7 +521,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 98,
+    groupId: 141,
     id: 64,
   },
   {
@@ -529,7 +529,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 192,
+    groupId: 165,
     id: 65,
   },
   {
@@ -537,7 +537,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 204,
+    groupId: 66,
     id: 66,
   },
   {
@@ -545,7 +545,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 339,
+    groupId: 139,
     id: 67,
   },
   {
@@ -553,7 +553,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 197,
+    groupId: 236,
     id: 68,
   },
   {
@@ -561,7 +561,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 87,
+    groupId: 154,
     id: 69,
   },
   {
@@ -569,7 +569,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 57,
+    groupId: 322,
     id: 70,
   },
   {
@@ -577,7 +577,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 191,
+    groupId: 204,
     id: 71,
   },
   {
@@ -585,7 +585,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 74,
+    groupId: 350,
     id: 72,
   },
   {
@@ -593,7 +593,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 133,
+    groupId: 142,
     id: 73,
   },
   {
@@ -601,7 +601,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 321,
+    groupId: 49,
     id: 74,
   },
   {
@@ -609,7 +609,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 106,
+    groupId: 41,
     id: 75,
   },
   {
@@ -617,7 +617,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 242,
+    groupId: 136,
     id: 76,
   },
   {
@@ -625,7 +625,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 34,
+    groupId: 69,
     id: 77,
   },
   {
@@ -633,7 +633,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 259,
+    groupId: 109,
     id: 78,
   },
   {
@@ -641,7 +641,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 153,
+    groupId: 98,
     id: 79,
   },
   {
@@ -649,7 +649,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 185,
+    groupId: 248,
     id: 80,
   },
   {
@@ -657,7 +657,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 205,
+    groupId: 80,
     id: 81,
   },
   {
@@ -665,7 +665,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 144,
+    groupId: 26,
     id: 82,
   },
   {
@@ -673,7 +673,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 113,
+    groupId: 51,
     id: 83,
   },
   {
@@ -681,7 +681,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 251,
+    groupId: 185,
     id: 84,
   },
   {
@@ -689,7 +689,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 155,
+    groupId: 301,
     id: 85,
   },
   {
@@ -697,7 +697,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 234,
+    groupId: 108,
     id: 86,
   },
   {
@@ -705,7 +705,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 46,
+    groupId: 342,
     id: 87,
   },
   {
@@ -713,7 +713,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 224,
+    groupId: 48,
     id: 88,
   },
   {
@@ -721,7 +721,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 108,
+    groupId: 75,
     id: 89,
   },
   {
@@ -737,7 +737,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 112,
+    groupId: 172,
     id: 91,
   },
   {
@@ -745,7 +745,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 238,
+    groupId: 321,
     id: 92,
   },
   {
@@ -753,7 +753,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 340,
+    groupId: 89,
     id: 93,
   },
   {
@@ -761,7 +761,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 41,
+    groupId: 57,
     id: 94,
   },
   {
@@ -769,7 +769,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 75,
+    groupId: 30,
     id: 95,
   },
   {
@@ -777,7 +777,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 243,
+    groupId: 251,
     id: 96,
   },
   {
@@ -785,7 +785,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 162,
+    groupId: 58,
     id: 97,
   },
   {
@@ -793,7 +793,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 72,
+    groupId: 299,
     id: 98,
   },
   {
@@ -809,7 +809,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 69,
+    groupId: 74,
     id: 100,
   },
   {
@@ -817,7 +817,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 212,
+    groupId: 218,
     id: 101,
   },
   {
@@ -825,7 +825,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 136,
+    groupId: 224,
     id: 102,
   },
   {
@@ -833,7 +833,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 195,
+    groupId: 190,
     id: 103,
   },
   {
@@ -841,7 +841,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 307,
+    groupId: 46,
     id: 104,
   },
   {
@@ -849,7 +849,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 110,
+    groupId: 113,
     id: 105,
   },
   {
@@ -857,7 +857,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 289,
+    groupId: 112,
     id: 106,
   },
   {
@@ -865,7 +865,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 331,
+    groupId: 0,
     id: 107,
   },
   {
@@ -873,7 +873,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 42,
+    groupId: 144,
     id: 108,
   },
   {
@@ -881,7 +881,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 101,
+    groupId: 263,
     id: 109,
   },
   {
@@ -889,7 +889,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 60,
+    groupId: 184,
     id: 110,
   },
   {
@@ -897,7 +897,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 164,
+    groupId: 259,
     id: 111,
   },
   {
@@ -905,7 +905,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 78,
+    groupId: 173,
     id: 112,
   },
   {
@@ -913,7 +913,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 280,
+    groupId: 162,
     id: 113,
   },
   {
@@ -921,7 +921,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 53,
+    groupId: 105,
     id: 114,
   },
   {
@@ -937,7 +937,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 33,
+    groupId: 194,
     id: 116,
   },
   {
@@ -945,7 +945,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 300,
+    groupId: 340,
     id: 117,
   },
   {
@@ -953,7 +953,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 278,
+    groupId: 27,
     id: 118,
   },
   {
@@ -961,7 +961,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 236,
+    groupId: 268,
     id: 119,
   },
   {
@@ -969,7 +969,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 294,
+    groupId: 106,
     id: 120,
   },
   {
@@ -977,7 +977,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 81,
+    groupId: 151,
     id: 121,
   },
   {
@@ -985,7 +985,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 279,
+    groupId: 189,
     id: 122,
   },
   {
@@ -993,7 +993,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': true },
     campus: Campus.BKC,
     eventKind: EventKind.BOOTH,
-    groupId: 301,
+    groupId: 230,
     id: 123,
   },
   {
@@ -1002,7 +1002,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 298,
+    groupId: 174,
     id: 124,
   },
   {
@@ -1011,7 +1011,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 184,
+    groupId: 232,
     id: 125,
   },
   {
@@ -1020,7 +1020,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 51,
+    groupId: 78,
     id: 126,
   },
   {
@@ -1029,7 +1029,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 282,
+    groupId: 324,
     id: 127,
   },
   {
@@ -1038,7 +1038,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 310,
+    groupId: 282,
     id: 128,
   },
   {
@@ -1047,7 +1047,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 295,
+    groupId: 134,
     id: 129,
   },
   {
@@ -1056,7 +1056,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 308,
+    groupId: 346,
     id: 130,
   },
   {
@@ -1065,7 +1065,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 45,
+    groupId: 335,
     id: 131,
   },
   {
@@ -1074,7 +1074,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 43,
+    groupId: 185,
     id: 132,
   },
   {
@@ -1083,7 +1083,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 147,
+    groupId: 331,
     id: 133,
   },
   {
@@ -1092,7 +1092,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 49,
+    groupId: 236,
     id: 134,
   },
   {
@@ -1101,7 +1101,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 331,
+    groupId: 49,
     id: 135,
   },
   {
@@ -1110,7 +1110,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 211,
+    groupId: 147,
     id: 136,
   },
   {
@@ -1119,7 +1119,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 328,
+    groupId: 55,
     id: 137,
   },
   {
@@ -1128,7 +1128,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 234,
+    groupId: 43,
     id: 138,
   },
   {
@@ -1137,7 +1137,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 250,
+    groupId: 285,
     id: 139,
   },
   {
@@ -1146,7 +1146,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 89,
+    groupId: 212,
     id: 140,
   },
   {
@@ -1155,7 +1155,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 277,
+    groupId: 286,
     id: 141,
   },
   {
@@ -1164,7 +1164,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 208,
+    groupId: 33,
     id: 142,
   },
   {
@@ -1173,7 +1173,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 195,
+    groupId: 162,
     id: 143,
   },
   {
@@ -1182,7 +1182,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 223,
+    groupId: 125,
     id: 144,
   },
   {
@@ -1191,7 +1191,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 243,
+    groupId: 295,
     id: 145,
   },
   {
@@ -1200,7 +1200,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 343,
+    groupId: 170,
     id: 146,
   },
   {
@@ -1209,7 +1209,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 188,
+    groupId: 283,
     id: 147,
   },
   {
@@ -1218,7 +1218,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 162,
+    groupId: 0,
     id: 148,
   },
   {
@@ -1227,7 +1227,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 106,
+    groupId: 277,
     id: 149,
   },
   {
@@ -1236,7 +1236,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 128,
+    groupId: 98,
     id: 150,
   },
   {
@@ -1245,7 +1245,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 159,
+    groupId: 103,
     id: 151,
   },
   {
@@ -1254,7 +1254,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 41,
+    groupId: 46,
     id: 152,
   },
   {
@@ -1263,7 +1263,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 27,
+    groupId: 158,
     id: 153,
   },
   {
@@ -1272,7 +1272,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 56,
+    groupId: 59,
     id: 154,
   },
   {
@@ -1281,7 +1281,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 180,
+    groupId: 143,
     id: 155,
   },
   {
@@ -1290,7 +1290,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 148,
+    groupId: 75,
     id: 156,
   },
   {
@@ -1299,7 +1299,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 344,
+    groupId: 83,
     id: 157,
   },
   {
@@ -1308,7 +1308,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 6,
+    groupId: 203,
     id: 158,
   },
   {
@@ -1317,7 +1317,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 57,
+    groupId: 60,
     id: 159,
   },
   {
@@ -1326,7 +1326,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 305,
+    groupId: 48,
     id: 160,
   },
   {
@@ -1335,7 +1335,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 32,
+    groupId: 135,
     id: 161,
   },
   {
@@ -1344,7 +1344,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 181,
+    groupId: 310,
     id: 162,
   },
   {
@@ -1353,7 +1353,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 170,
+    groupId: 191,
     id: 163,
   },
   {
@@ -1362,7 +1362,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 94,
+    groupId: 151,
     id: 164,
   },
   {
@@ -1371,7 +1371,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 281,
+    groupId: 79,
     id: 165,
   },
   {
@@ -1380,7 +1380,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 152,
+    groupId: 87,
     id: 166,
   },
   {
@@ -1389,7 +1389,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 48,
+    groupId: 66,
     id: 167,
   },
   {
@@ -1398,7 +1398,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 185,
+    groupId: 225,
     id: 168,
   },
   {
@@ -1407,7 +1407,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 64,
+    groupId: 273,
     id: 169,
   },
   {
@@ -1416,7 +1416,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 58,
+    groupId: 199,
     id: 170,
   },
   {
@@ -1425,7 +1425,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 54,
+    groupId: 89,
     id: 171,
   },
   {
@@ -1434,7 +1434,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 85,
+    groupId: 103,
     id: 172,
   },
   {
@@ -1443,7 +1443,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 260,
+    groupId: 242,
     id: 173,
   },
   {
@@ -1452,7 +1452,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 313,
+    groupId: 120,
     id: 174,
   },
   {
@@ -1461,7 +1461,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 294,
+    groupId: 289,
     id: 175,
   },
   {
@@ -1470,7 +1470,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 290,
+    groupId: 326,
     id: 176,
   },
   {
@@ -1479,7 +1479,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 322,
+    groupId: 284,
     id: 177,
   },
   {
@@ -1488,7 +1488,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 69,
+    groupId: 304,
     id: 178,
   },
   {
@@ -1497,7 +1497,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 274,
+    groupId: 206,
     id: 179,
   },
   {
@@ -1506,7 +1506,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 191,
+    groupId: 155,
     id: 180,
   },
   {
@@ -1515,7 +1515,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 215,
+    groupId: 154,
     id: 181,
   },
   {
@@ -1524,7 +1524,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 206,
+    groupId: 251,
     id: 182,
   },
   {
@@ -1533,223 +1533,223 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 324,
+    groupId: 234,
     id: 183,
   },
   {
-    areaClassification: 'A',
-    areaNum: 61,
+    areaClassification: '音出しなし',
+    areaNum: '①',
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 330,
+    groupId: 106,
     id: 184,
   },
   {
-    areaClassification: 'A',
-    areaNum: 62,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 50,
-    id: 185,
-  },
-  {
-    areaClassification: 'B',
-    areaNum: 1,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 345,
-    id: 186,
-  },
-  {
-    areaClassification: 'B',
-    areaNum: 2,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 158,
-    id: 187,
-  },
-  {
-    areaClassification: 'B',
-    areaNum: 3,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 346,
-    id: 188,
-  },
-  {
-    areaClassification: 'B',
-    areaNum: 4,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 347,
-    id: 189,
-  },
-  {
-    areaClassification: 'B',
-    areaNum: 5,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 348,
-    id: 190,
-  },
-  {
-    areaClassification: 'B',
-    areaNum: 6,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 156,
-    id: 191,
-  },
-  {
-    areaClassification: 'B',
-    areaNum: 7,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 213,
-    id: 192,
-  },
-  {
-    areaClassification: 'B',
-    areaNum: 8,
+    areaClassification: '音出しなし',
+    areaNum: '②',
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
     groupId: 144,
+    id: 185,
+  },
+  {
+    areaClassification: '音出しなし',
+    areaNum: '③',
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 101,
+    id: 186,
+  },
+  {
+    areaClassification: '音出しなし',
+    areaNum: '④',
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 351,
+    id: 187,
+  },
+  {
+    areaClassification: '音出しなし',
+    areaNum: '⑤',
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 54,
+    id: 188,
+  },
+  {
+    areaClassification: '音出しなし',
+    areaNum: '⑥',
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 107,
+    id: 189,
+  },
+  {
+    areaClassification: '音出しなし',
+    areaNum: '⑦',
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 192,
+    id: 190,
+  },
+  {
+    areaClassification: '音出しなし',
+    areaNum: '⑧',
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 45,
+    id: 191,
+  },
+  {
+    areaClassification: '音出しなし',
+    areaNum: '⑨',
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 178,
+    id: 192,
+  },
+  {
+    areaClassification: '音出しなし',
+    areaNum: '⑨',
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 0,
     id: 193,
   },
   {
-    areaClassification: 'B',
-    areaNum: 9,
+    areaClassification: '音出しなし',
+    areaNum: '⑩',
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 320,
+    groupId: 181,
     id: 194,
   },
   {
-    areaClassification: 'B',
-    areaNum: 10,
-    availability: { '4/3': true, '4/4': false },
-    campus: Campus.KIC,
-    eventKind: EventKind.BOOTH,
-    groupId: 219,
-    id: 195,
-  },
-  {
-    areaClassification: 'B',
+    areaClassification: '音出しなし',
     areaNum: 11,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 311,
-    id: 196,
+    groupId: 262,
+    id: 195,
   },
+  // {
+  //   areaClassification: '音出しなし',
+  //   areaNum: 11,
+  //   availability: { '4/3': true, '4/4': false },
+  //   campus: Campus.KIC,
+  //   eventKind: EventKind.BOOTH,
+  //   groupId: 0,
+  //   id: 196,
+  // },
   {
-    areaClassification: 'B',
+    areaClassification: '音出しなし',
     areaNum: 12,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 349,
+    groupId: 333,
     id: 197,
   },
   {
-    areaClassification: 'B',
+    areaClassification: '音出しなし',
     areaNum: 13,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 33,
+    groupId: 145,
     id: 198,
   },
   {
-    areaClassification: 'B',
+    areaClassification: '音出しなし',
     areaNum: 14,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 326,
+    groupId: 260,
     id: 199,
   },
   {
-    areaClassification: 'B',
+    areaClassification: '音出しなし',
     areaNum: 15,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 244,
+    groupId: 322,
     id: 200,
   },
   {
-    areaClassification: 'B',
+    areaClassification: '音出しなし',
     areaNum: 16,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 81,
+    groupId: 211,
     id: 201,
   },
   {
-    areaClassification: ' 音出し',
-    areaNum: 'A',
+    areaClassification: ' 音出しなし',
+    areaNum: 17,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 182,
+    groupId: 287,
     id: 202,
   },
   {
-    areaClassification: ' 音出し',
-    areaNum: 'B',
+    areaClassification: ' 音出しなし',
+    areaNum: 18,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 186,
+    groupId: 54,
     id: 203,
   },
   {
-    areaClassification: ' 音出し',
-    areaNum: 'C',
+    areaClassification: ' 音出しなし',
+    areaNum: 19,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 177,
+    groupId: 173,
     id: 204,
   },
   {
-    areaClassification: ' 音出し',
-    areaNum: 'D',
+    areaClassification: ' 音出しなし',
+    areaNum: 20,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 203,
+    groupId: 325,
     id: 205,
   },
   {
-    areaClassification: ' 音出し',
-    areaNum: 'E',
+    areaClassification: ' 音出しなし',
+    areaNum: 21,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 212,
+    groupId: 343,
     id: 206,
   },
   {
-    areaClassification: ' 音出し',
-    areaNum: 'F',
+    areaClassification: ' 音出しなし',
+    areaNum: 22,
     availability: { '4/3': true, '4/4': false },
     campus: Campus.KIC,
     eventKind: EventKind.BOOTH,
-    groupId: 248,
+    groupId: 188,
     id: 207,
   },
   {
@@ -2513,7 +2513,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 226,
+    groupId: 75,
     id: 292,
   },
   {
@@ -2521,7 +2521,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 228,
+    groupId: 34,
     id: 293,
   },
   {
@@ -2529,7 +2529,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 108,
+    groupId: 89,
     id: 294,
   },
   {
@@ -2537,7 +2537,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 32,
+    groupId: 227,
     id: 295,
   },
   {
@@ -2545,7 +2545,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 23,
+    groupId: 232,
     id: 296,
   },
   {
@@ -2553,7 +2553,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 50,
+    groupId: 6,
     id: 297,
   },
   {
@@ -2561,7 +2561,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 337,
+    groupId: 354,
     id: 298,
   },
   {
@@ -2569,7 +2569,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 190,
+    groupId: 333,
     id: 299,
   },
   {
@@ -2577,7 +2577,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 43,
+    groupId: 157,
     id: 300,
   },
   {
@@ -2585,7 +2585,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 234,
+    groupId: 229,
     id: 301,
   },
   {
@@ -2593,7 +2593,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 222,
+    groupId: 215,
     id: 302,
   },
   {
@@ -2601,7 +2601,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 58,
+    groupId: 81,
     id: 303,
   },
   {
@@ -2617,7 +2617,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 334,
+    groupId: 114,
     id: 305,
   },
   {
@@ -2625,7 +2625,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 54,
+    groupId: 190,
     id: 306,
   },
   {
@@ -2633,7 +2633,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 215,
+    groupId: 224,
     id: 307,
   },
   {
@@ -2641,7 +2641,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 111,
+    groupId: 226,
     id: 308,
   },
   {
@@ -2649,7 +2649,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 109,
+    groupId: 286,
     id: 309,
   },
   {
@@ -2665,7 +2665,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 251,
+    groupId: 31,
     id: 311,
   },
   {
@@ -2681,7 +2681,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 198,
+    groupId: 310,
     id: 313,
   },
   {
@@ -2689,7 +2689,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 248,
+    groupId: 301,
     id: 314,
   },
   {
@@ -2697,7 +2697,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 6,
+    groupId: 111,
     id: 315,
   },
   {
@@ -2713,7 +2713,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 272,
+    groupId: 116,
     id: 317,
   },
   {
@@ -2737,7 +2737,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 335,
+    groupId: 233,
     id: 320,
   },
   {
@@ -2745,7 +2745,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 243,
+    groupId: 33,
     id: 321,
   },
   {
@@ -2753,7 +2753,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 53,
+    groupId: 242,
     id: 322,
   },
   {
@@ -2761,7 +2761,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 144,
+    groupId: 30,
     id: 323,
   },
   {
@@ -2769,7 +2769,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 175,
+    groupId: 142,
     id: 324,
   },
   {
@@ -2785,7 +2785,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': true, '4/4': false },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 27,
+    groupId: 198,
     id: 326,
   },
   {
@@ -2793,7 +2793,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 322,
+    groupId: 248,
     id: 327,
   },
   {
@@ -2801,7 +2801,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 258,
+    groupId: 234,
     id: 328,
   },
   {
@@ -2809,7 +2809,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 79,
+    groupId: 49,
     id: 329,
   },
   {
@@ -2817,7 +2817,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 34,
+    groupId: 78,
     id: 330,
   },
   {
@@ -2825,7 +2825,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 95,
+    groupId: 266,
     id: 331,
   },
   {
@@ -2833,7 +2833,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 75,
+    groupId: 223,
     id: 332,
   },
   {
@@ -2841,7 +2841,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 310,
+    groupId: 191,
     id: 333,
   },
   {
@@ -2849,7 +2849,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 335,
+    groupId: 162,
     id: 334,
   },
   {
@@ -2857,7 +2857,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 98,
+    groupId: 337,
     id: 335,
   },
   {
@@ -2865,7 +2865,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 51,
+    groupId: 258,
     id: 336,
   },
   {
@@ -2873,7 +2873,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 236,
+    groupId: 294,
     id: 337,
   },
   {
@@ -2881,7 +2881,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 332,
+    groupId: 54,
     id: 338,
   },
   {
@@ -2889,7 +2889,7 @@ const boothInfoData: BoothInfoType[] = [
     availability: { '4/3': false, '4/4': true },
     campus: Campus.OIC,
     eventKind: EventKind.BOOTH,
-    groupId: 266,
+    groupId: 243,
     id: 339,
   },
   {
@@ -3067,6 +3067,114 @@ const boothInfoData: BoothInfoType[] = [
     eventKind: EventKind.BOOTH,
     groupId: 157,
     id: 361,
+  },
+  {
+    areaNum: 36,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.OIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 0,
+    id: 362,
+  },
+  {
+    areaNum: 37,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.OIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 279,
+    id: 363,
+  },
+  {
+    areaNum: 38,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.OIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 43,
+    id: 364,
+  },
+  {
+    areaNum: 39,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.OIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 322,
+    id: 365,
+  },
+  {
+    areaNum: 40,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.OIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 60,
+    id: 366,
+  },
+  {
+    areaNum: 124,
+    availability: { '4/3': true, '4/4': true },
+    campus: Campus.BKC,
+    eventKind: EventKind.BOOTH,
+    groupId: 232,
+    id: 367,
+  },
+  {
+    areaNum: 125,
+    availability: { '4/3': true, '4/4': true },
+    campus: Campus.BKC,
+    eventKind: EventKind.BOOTH,
+    groupId: 192,
+    id: 368,
+  },
+  {
+    areaNum: 126,
+    availability: { '4/3': true, '4/4': true },
+    campus: Campus.BKC,
+    eventKind: EventKind.BOOTH,
+    groupId: 242,
+    id: 369,
+  },
+  {
+    areaNum: 127,
+    availability: { '4/3': true, '4/4': true },
+    campus: Campus.BKC,
+    eventKind: EventKind.BOOTH,
+    groupId: 334,
+    id: 370,
+  },
+  {
+    areaClassification: ' 音出しなし',
+    areaNum: 23,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 263,
+    id: 371,
+  },
+  {
+    areaClassification: ' 音出しなし',
+    areaNum: 24,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 209,
+    id: 372,
+  },
+  {
+    areaClassification: ' 音出しなし',
+    areaNum: 25,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 294,
+    id: 373,
+  },
+  {
+    areaClassification: ' 音出しなし',
+    areaNum: 26,
+    availability: { '4/3': true, '4/4': false },
+    campus: Campus.KIC,
+    eventKind: EventKind.BOOTH,
+    groupId: 215,
+    id: 374,
   },
 ];
 
